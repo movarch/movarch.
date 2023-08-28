@@ -114,10 +114,6 @@ pwa:
 
 paginate: 10
 
-# plugins
-plugins:
-  - kramdown-plantuml
-  - jekyll-graphviz
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
