@@ -26,10 +26,3 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 if RUBY_PLATFORM =~ /linux-musl/
   gem "jekyll-sass-converter", "~> 2.0"
 end
-
-# graphviz
-group :jekyll_plugins do
-  gem "jekyll-graphviz-dot"
-end
-
-gem 'kramdown-plantuml'
